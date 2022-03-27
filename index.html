@@ -5,10 +5,77 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Trang chủ</title>
-    <link rel="stylesheet" href="/index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,600;1,600&family=Ubuntu:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/style.css">
 </head>
 <body>
-    <section>test ở đay</section>
+    <h3>Menu đa cấp</h3>
+     <div class="menu">
+        <nav>
+            <ul>
+                <li><a href="#" title="Trang chủ">Trang chủ</a></li>
+                <li><a href="#" title="Giới thiệu">Giới thiệu</a></li>
+                <li><a href="#" title="Khóa học chuyên đề">Khóa học chuyên đề</a>
+                    <!-- menu con sổ xuống cấp 1 -->
+                    <ul>
+                        <li><a href="#" title="Lập trình C/C++">Lập trình C/C++</a></li>
+                        <li><a href="#" title="Lập trình Web PHP&MySQL">Lập trình Web với PHP&MySQL</a></li>
+                        <li>
+                            <a href="#" title="Lập trình Web ASP.NET">Lập trình Web với ASP.NET MVC 5</a>
+                            <!-- menu con sổ ngang cấp 2 -->
+                            <ul>
+                                <li><a href="#" title="Lập Trình hướng đối tượng với C# (30h)">1. Lập trình hướng đối tượng với C#(30h)</a></li>
+                                <li><a href="#" title="Lập trình cơ sở dữ liệu SQL Server (20h)">2. Lập trình cơ sở dữ liệu SQL Server (20h)</a></li>
+                                <li><a href="#" title="Lập trình giao diện web với HTML5 (30h)">3. Lập trình giao diện web với HTML5 (30h)</a></li>
+                                <li><a href="#" title="Lập trình ứng dụng với ASP.NET MVC 5 (20h)">4. Lập trình ứng dụng ASP.NET MVC 5 (20h)</a></li>
+                                <li>
+                                    <a href="#" title="Xây dựng dự án với ASP.NET MVC 5(30h)">5. Xây dựng dự án với ASP.NET MVC 5(30h)</a>
+                                    <!-- menu con sổ ngang cấp 3 -->
+                                    <ul>
+                                        <li><a href="#" title="Xây dựng bài toán">Xây dựng bài toán</a></li>
+                                        <li><a href="#" title="Thiết kế giao diện chức năng">Thiết kế giao diện chức năng</a></li>
+                                        <li><a href="#" title="Phát triển dự án">Phát triển dự án</a></li>
+                                    </ul>
+    
+                                </li>
+                            </ul>
+                        </li>
+                        <li><a href="#" title="Lập trình Web Java Spring">Lập trình Web Java Spring Framework</a></li>
+                    </ul>
+                </li>
+                <li><a href="#" title="Dịch vụ">Dịch vụ</a>
+                    <ul>
+                        <li><a href="#" title="Thực tập chuyên đề">Thực tập sinh chuyên đề</a></li>
+                        <li><a href="#" title="Sản xuất phần mềm">Sản xuất phần mềm</a></li>
+                    </ul>
+                </li>
+                <li><a href="#" title="Liện hệ">Liên hệ</a></li>
+            
+            </ul>
+        </nav>
+     </div>
+    <div class="flex">
+        <div class="flex-item"> text-center</div>
+        <div class="flex-item">
+            <div class="flex-item-t"></div>
+            <div class="flex-item-t"></div>
+        </div>
+    </div>
+    <div class="main">
+        <div class="main-item">
+           <img src="https://cdn.dribbble.com/users/58172/screenshots/3227945/food-map.jpg?compress=1&resize=800x600&vertical=top" alt="error">
+        </div>
+    </div>
+    <ul>
+        <li><a href="#">Item1</a></li>
+        <li><a href="#">Item2</a></li>
+        <li><a href="#">Item3</a></li>
+    </ul>
+    <input type="text" class="input-size"> 
      <script src="./index.js"></script>
+
+     
 </body>
 </html>
