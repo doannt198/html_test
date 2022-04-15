@@ -2,7 +2,6 @@ $font:'Ubuntu', sans-serif;
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
 body{
     width: 100%;
@@ -182,8 +181,12 @@ nav > ul li > ul li >ul{
     }
     &-item:nth-child(6){
      grid-column: 3/5;
-     
-    
-        
     }
+}
+.box{
+    width: 200px;
+    height: 200px;
+     padding: 18px 24px;
+    background: red;
+    border:5px solid green
 }
